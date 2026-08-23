@@ -49,7 +49,7 @@ body {
   text-align: center;
 }
 
-.list li:not(:last-child) {
+.list .nav__item:not(:last-child) {
   margin-right: 20px;
 }
 
