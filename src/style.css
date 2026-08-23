@@ -1,3 +1,7 @@
+:root {
+  --blue: #00acdc;
+}
+
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
@@ -50,12 +54,12 @@ body {
 }
 
 .nav__link:hover {
-  color: #00acdc;
+  color: var(--blue);
 }
 
 .is-active {
   position: relative;
-  color: #00acdc;
+  color: var(--blue);
 }
 
 .is-active::after {
@@ -64,7 +68,7 @@ body {
   width: 100%;
   position: absolute;
   content: '';
-  border-top: 4px solid #00acdc;
+  border-top: 4px solid var(--blue);
   border-radius: 8px;
 }
 
