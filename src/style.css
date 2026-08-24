@@ -1,5 +1,6 @@
 :root {
   --blue: #00acdc;
+  --header-padding: 50px;
 }
 
 body {
@@ -12,26 +13,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: var(--header-padding);
+  padding-right: var(--header-padding);
 }
 
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000;
-  text-transform: uppercase;
-  font-size: 12px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.companyLogoImg {
-  margin-left: 50px;
 }
 
 .navigation {
   display: flex;
-  margin-right: 50px;
   justify-content: center;
   align-items: center;
 }
